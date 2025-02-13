@@ -82,8 +82,8 @@ def write_to_json(data,path):
     print('wrtie success')
 
 if __name__=="__main__":
-    path1 = 'data/medical/raw_medical/2关系_校对.jsonl'
-    path2 = 'data/medical/raw_medical/10关系_校对后.jsonl'
+    path1 = 'data/medical/raw_medical/关系_校对.jsonl'
+    path2 = 'data/medical/raw_medical/关系_校对后.jsonl'
     data = read_jsonl(path1)
     data2 = read_jsonl(path2)
     data.extend(data2)
